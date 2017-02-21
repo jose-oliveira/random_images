@@ -1,0 +1,4 @@
+random-image:
+  version: VERSION
+  js:
+    js/random_image.js: {}

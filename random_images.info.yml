@@ -1,0 +1,6 @@
+name: Random images
+description: Field formatter showing random images.
+type: module
+core: 8.x
+dependencies:
+  - image

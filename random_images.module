@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Image functionality.
+ */
+
+function random_images_theme($existing, $type, $theme, $path) {
+  return array(
+    'random_image' => array(
+      'variables' => array(
+        'urls' => NULL,
+        '#attached' => array('library' => 'random_images/random-image'),
+      ),
+    ),
+  );
+}

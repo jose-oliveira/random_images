@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * Theme for random images.
+ *
+ * Available variables:
+ * - urls: The urls to choose from.
+ *
+#}
+
+<div>
+  <img data-random-srcs="{{ urls|join(',') }}" class="random-image"/>
+</div>
